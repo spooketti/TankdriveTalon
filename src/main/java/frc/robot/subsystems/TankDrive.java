@@ -16,8 +16,8 @@ public class TankDrive extends SubsystemBase{
 
     public TankDrive()
     {
-        R2.setInverted(true);
-        R1.setInverted(true);
+        L1.setInverted(true);
+        L2.setInverted(true);
     }
 
     public void DriveAround(double leftSpeed, double rightSpeed)
